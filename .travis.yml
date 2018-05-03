@@ -2,10 +2,4 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy:
-provider: heroku
-  api_key:
-   secure: 5a785a53-665e-4f74-a3dc-be0295ef5c9a
-  app: obscure-sands-56306
-  on:
-   repo: thinkful-ei20/marinaV-node-restaurants-app-mongoose
+V-node-restaurants-app-mongoose
